@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sanjana's portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body {
+        background-color: white;
+        color: rgb(245, 160, 68);
+        font-family: 'Playfair Display', serif;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+        background-color: white;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        padding: 36px;
+        font-size: medium;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0px 30px;
+        justify-content: left;
+        font-size: 1.2rem;
+    }
+
+    nav div.left {
+        font-size: 3.5rem;
+        color: black;
+        font-family: auto;
+        margin-right: 193px;
+    }
+
+    nav div.button {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 19px;
+        border: 3px solid orangered;
+        border-radius: 15px;
+        padding: 12px 31px;
+    }
+
+
+    .firstsection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 7px -6px;
+        background-color: rgba(252, 131, 24, 0.929);
+
+    }
+
+    .firstsection div {
+        width: 50%;
+    }
+
+    .firstsection div.below {
+        margin-top: 36px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+            Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+        width: 109%;
+        font-size: 25px;
+
+    }
+
+    .firstsection div.button2 {
+
+        font-size: 19px;
+        color: white;
+        border: 2px solid white;
+        border-radius: 20px;
+        margin-top: 52px;
+        text-align: center
+    }
+
+    .rightsection img {
+        width: 88%;
+        margin: -17px 6px;
+    }
+
+    .firstsection div.left {
+
+        width: 50%;
+        margin-top: -55px;
+        font-size: 3.5rem;
+        padding: 159px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+            'Open Sans', 'Helvetica Neue', sans-serif;
+        color: white;
+
+    }
+
+    span {
+        color: #564381;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    nav ul li a:hover {
+        color: #580e5b;
+        font-size: 110%;
+
+    }
+
+    .secondsection {
+        width: 100%;
+        padding: 100px 0px;
+
+
+    }
+
+    /** .secondsection img {
+        height: auto;
+        width: 382px;
+
+    }**/
+
+    .aboutme {
+        width: 550px;
+
+    }
+
+    hr {
+        margin: 2px 79px;
+    }
+
+    .boxes p {
+
+        color: black;
+        font-size: 22px;
+        margin-top: 40px;
+    }
+
+    .secondsection div.boxes {
+        margin-left: 69px;
+        width: 16%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: baseline;
+        font-family: auto;
+        font-size: 30px;
+        padding: 31px 20px;
+        float: left;
+        margin-bottom: 60px;
+    }
+
+    div.imgone img {
+
+        width: 24%;
+        margin: 1px 62px;
+        margin-top: -14px;
+    }
+
+    div.imgtwo img {
+
+        width: 32%;
+        margin: 1px 62px;
+        margin-top: -19px;
+
+    }
+
+    div.imgthree img {
+
+        width: 33%;
+        margin: 1px 62px;
+        margin-top: -19px;
+    }
+
+    div.imgfour img {
+
+        width: 35%;
+        margin: 1px 62px;
+        margin-top: -19px;
+    }
+
+    div.imgo img {
+        width: 31%;
+        margin: 1px 62px;
+        margin-top: 18px;
+    }
+
+    div.imgo img {
+        filter: invert(100%);
+    }
+
+    .rectangle {
+        border: 2px solid rgb(251, 148, 22);
+        background-color: rgb(251, 148, 22);
+        border-radius: 10px;
+    }
+
+    .rectangle h6 {
+        color: white;
+        font-size: 19px;
+        margin-top: -9px;
+    }
+
+    div.imgt img {
+        width: 43%;
+        margin: 1px 62px;
+        margin-top: 18px;
+    }
+
+    div.imgt img {
+        filter: invert(100%);
+    }
+    div.imgth img {
+        width: 43%;
+        margin: 1px 62px;
+        margin-top: 18px;
+    }
+
+    div.imgth img {
+        filter: invert(100%);
+    }
+    div.imgf img {
+        width: 35%;
+        margin: 1px 62px;
+        margin-top: 18px;
+    }
+
+    div.imgf img {
+        filter: invert(100%);
+    }
+
+    h6 {
+        color: black;
+        font-size: 24px;
+        margin-top: 22px;
+    }
+
+    .about h2 {
+        font-family: auto;
+        font-size: 43px;
+        margin-bottom: 18px;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+        margin-top: -80px;
+        margin-bottom: 104px;
+    }
+
+    .thirdsection {
+        width: 100%;
+        padding: 100px 0px;
+       
+    }
+
+    .heading h2 {
+
+        font-family: auto;
+        font-size: 43px;
+        margin-bottom: 18px;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+        margin-top: -74px;
+        margin-bottom: 104px;
+        width: 100%;
+    }
+
+    .thirdsection div.rectangle {
+        margin-left: 69px;
+        width: 16%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        font-family: auto;
+        font-size: 30px;
+        padding: 31px 20px;
+        float: left;
+        margin-left: 67px;
+        align-content: center;
+    }
+
+    .rectangle p {
+
+        color: white;
+        font-size: 16px;
+        margin-top: 11px;
+
+    }
+
+
+    .aboutme h5 {
+        letter-spacing: 2px;
+        font-size: 22px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+    }
+
+    .aboutme p {
+        letter-spacing: 1px;
+        line-height: 33px;
+        font-size: 25px;
+        margin-bottom: 45px;
+    }
+
+    .secondsection div.boxes {
+
+        border: 1px solid #dad3d3;
+        border-radius: 16px;
+    }
+    .fourthsection {
+        width: 100%;
+        padding: 100px 0px;
+       
+    }
+
+    .heading2 h2 {
+
+        font-family: auto;
+        font-size: 43px;
+        margin-bottom: 18px;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+        margin-top: 251px;
+        margin-bottom: 104px;
+        width: 100%;
+    }
+    .target div.imgt img {
+        width: 42%;
+        margin: 1px 62px;
+        margin-top: 33px;
+        filter: none;
+    }
+    .target div.imgd img {
+        width: 37%;
+    margin: 4px 52px;
+    margin-top: -16px;
+    filter: none;
+    }
+    .fourthsection div.target {
+        margin-left: 69px;
+        width: 21%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 6px;
+        padding: 31px 20px;
+        float: left;
+        margin-left: 67px;
+        align-content: center;
+        margin-top: -83px;
+    }
+
+    .target p {
+
+        color: black;
+        font-size: 16px;
+        margin-top: 22px;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+    }
+    .target2 .ps p {
+
+        color: black;
+        font-size: 23px;
+        margin-top: 0px;
+        margin-left: -71px;
+        font-family: "Open Sans", sans-serif;
+    }
+    .target2 h6 {
+        color: black;
+        font-size: 27px;
+        margin-top: 22px;
+        font-family: "Montserrat", sans-serif;
+    }
+    .target2 div.imgt img {
+        width: 42%;
+        margin: 1px 62px;
+        margin-top: 33px;
+        filter: none;
+    }
+    .target2 div.imgd img {
+        width: 37%;
+    margin: 4px 52px;
+    margin-top: -16px;
+    filter: none;
+    }
+    .fourthsection div.target2 {
+        margin-left: 69px;
+        width: 21%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 6px;
+        padding: 31px 20px;
+        float: left;
+        margin-left: 67px;
+        align-content: center;
+        margin-top: -83px;
+    }
+
+    .target2 p {
+
+        color: black;
+        font-size: 16px;
+        margin-top: 22px;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+    }
+    .target2 .ps p {
+
+        color: black;
+        font-size: 23px;
+        margin-top: 0px;
+        margin-left: -71px;
+        font-family: "Open Sans", sans-serif;
+    }
+    .target2 h6 {
+        color: black;
+        font-size: 27px;
+        margin-top: 22px;
+        font-family: "Montserrat", sans-serif;
+    }
+
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">app</div>
+            <div class="center">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Our Process</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="button">Try For Free</div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="firstsection">
+
+            <div class="left">A Better Way to Build Software
+                <div class="below">Launch 3X faster and cheaper with our data- driven app development platform</div>
+                <div class="button2">FIND OUT MORE</div>
+            </div>
+
+            <div class="rightsection">
+                <img src="images\analysis.jpeg" alt="icon">
+            </div>
+        </section>
+
+
+        <section class="secondsection">
+
+            <div class="about">
+                <h2>Lunch Apps fast with App</h2>
+
+            </div>
+            <div class="boxes">
+                <div class="imgone">
+                    <img src="images/click.png" alt="icon">
+                </div>
+                <h6>Go live with a click</h6>
+                <p>Publish directly from your dashboard to Web, on-premises or iOS and Android app stores.</p>
+            </div>
+            </div>
+            <div class="boxes">
+                <div class="imgtwo">
+                    <img src="images/flow.png">
+                </div>
+                <h6>Custom DevSecOps</h6>
+                <p>Use our Out-Of-The-Box build and testing pipelines or build your own.</p>
+            </div>
+
+            <div class="boxes">
+                <div class="imgthree">
+                    <img src="images/code.png">
+                </div>
+                <h6>Full Code Made Easy</h6>
+                <p>No shadow IT here! Access your source code anytime via two-way Git repo sycn.</p>
+            </div>
+
+            <div class="boxes">
+                <div class="imgfour">
+                    <img src="images/ip.avif">
+                </div>
+                <h6>Own your IP No</h6>
+                <p>Build with real code written in ordinary open-source frameworks and owned by you.</p>
+            </div>
+        </section>
+        <section class="thirdsection">
+
+            <div class="heading">
+                <h2>Stop building from Scratch.</h2>
+            </div>
+            <div class="rectangle">
+                <h6>Off-The-Shelf Build plans</h6>
+                <div class="imgo">
+                    <img src="images/check.png">
+                </div>
+                <p>Start by choosing from of catalouge of thousands of reusable requirements and modules of code</p>
+            </div>
+            <div class="rectangle">
+                <h6>On Demand Talent</h6>
+                <div class="imgt">
+                    <img src="images/imgt.png">
+                </div>
+                <p>Hire extra development resources for the last mile of custom features.</p>
+            </div>
+            <div class="rectangle">
+                <h6>Faster,Smarter,Better</h6>
+                <div class="imgth">
+                    <img src="images/rocket.png">
+                </div>
+                <p>Use our platform's historical build data to make informed tradeoffs about product scope.</p>
+            </div>
+            <div class="rectangle">
+                <h6>Fixed,Predictable cost</h6>
+                <div class="imgf">
+                    <img src="images/coin.webp">
+                </div>
+                <p>Start with an all-in MVP cost estimate, then transition to a fixed monthly contract for an add-on work.</p>
+            </div>
+            <section class="fourthsection">
+
+                <div class="heading2">
+                    <h2>Our Process</h2>
+                </div>
+                <div class="target">
+                    <h6>Steps to Sucess</h6>
+                    <p>By choosing our Microsoft consulting services,you're ensuring clarity,quality and support brom start to finish.
+                        whether you're in Canada,the US or anywhere in the world we make tech easy for you.Let's see how we do this:
+                    </p>
+                    <div class="imgt">
+                        <img src="images/target.png">
+                    </div>
+                    <div class="imgd">
+                        <img src="images/down.webp">
+                    </div>
+                    <div class="ps">
+                    <p>Step 1</p>
+                    </div>
+                    
+                        
+               
+
+
+    </main>
+
+
+</body>
+
+</html>
